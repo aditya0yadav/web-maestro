@@ -1,0 +1,20 @@
+.blog-container {
+    padding: 20px;
+
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    font-family: sans-serif;
+    
+}
+.header :hover{
+    text-decoration: underline black;
+    /* color: blue; */
+}

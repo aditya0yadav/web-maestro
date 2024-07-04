@@ -1,0 +1,19 @@
+.h1-tag{
+    font-size: 43px;
+    font-family: "Droid Sans", sans-serif;
+    margin: 10px;
+    /* text-align: center; */
+    padding: 8px;
+    color: #000;
+    background-color: #fff;
+    
+    box-shadow: 0 0 6px #000;
+}
+.h1-tag h1{
+    text-align: center;
+}
+.h1-tag:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+}

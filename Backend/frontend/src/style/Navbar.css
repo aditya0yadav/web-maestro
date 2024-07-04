@@ -1,0 +1,152 @@
+/* Reset some default styles */
+body, h1, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Open Sans', serif;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #6e6b6b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Left side styling */
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.title h1 {
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'RocknRoll One', sans-serif;
+  color: #f0f0f0;
+}
+
+/* Right side styling */
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.about a {
+  color: white;
+  font-size: 22px;
+  transition: color 0.3s;
+  margin-right: 20px;
+  position: relative; /* Add this for the ::after positioning */
+  text-decoration: none;
+}
+.about a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; 
+  bottom: -2px;
+  left: 0;
+  background-color: #ff6347; /* Color of the underline */
+  transition: width 0.3s; /* Transition effect */
+}
+.about a:hover::after {
+  width: 100%; /* Full width underline on hover */
+}
+
+.about a:hover {
+  color: #ff6347;
+}
+
+.about:hover {
+  text-decoration: none; /* Keep no underline */
+}
+
+.about a:hover {
+  color: #ff6347;
+  
+}
+
+
+button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 19px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #e5533d;
+  transform: scale(1.05);
+}
+
+.other {
+  margin-left: auto;
+}
+
+.signin {
+  margin-right: 10px;
+  border: 0.2px solid #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #6e6b6b;
+}
+
+.family {
+  font-family: sans-serif;
+  padding: 14px 12px;
+}
+
+.signin h3 {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .right {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .about {
+    margin: 0 10px;
+    font-size: 28px;
+  }
+
+  .signin {
+    margin: 10px 0;
+  }
+}

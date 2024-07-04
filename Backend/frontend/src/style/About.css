@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Updated to your preferred font family */
+    background-color: #f6fafa;
+    color: #333;
+}
+
+.about-main-container {
+    padding: 20px 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.image-about {
+    margin: 20px 0;
+}
+
+.image-about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333; /* Darker border for better contrast */
+}
+
+.about-title {
+    text-align: center;
+    padding: 10px;
+}
+
+.about-title h1 {
+    font-size: 2.5em; /* Larger font size for the title */
+    font-family: 'Droid Sans', sans-serif;
+    color: #333;
+    margin: 20px 0;
+}
+
+.about-content {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 2em;
+    font-family: 'Droid Sans', sans-serif;
+    margin: 20px 0;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    font-family: 'Droid Sans', sans-serif;
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #555; /* Slightly lighter color for better readability */
+}
+
+.about-content ul {
+    list-style-type: disc; /* Change list style to disc */
+    font-size: 1.1em;
+    font-family: 'Droid Sans', sans-serif;
+    margin: 20px 0;
+    padding-left: 20px;
+    color: #555;
+}
+
+.about-content h2 {
+    font-size: 1.5em;
+    font-family: 'Droid Sans', sans-serif;
+    margin: 20px 0;
+    color: #333;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .about-title h1, .about-content h1, .about-content h2 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .about-content p, .about-content ul {
+        font-size: 1em;
+    }
+}
