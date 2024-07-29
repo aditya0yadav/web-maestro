@@ -3,7 +3,8 @@
 
 Welcome to **Web Maestro**! This project is designed to help you build a versatile and feature-rich blogging platform with a focus on user management and real-time interactions.
 
-![Web Maestro Screenshot](Backend/media/img.png)
+![Web Maestro Screenshot](Backend/media/main.png)
+
 ![Web Maestro Screenshot](Backend/media/img2.png)
 
 ## Features
@@ -13,6 +14,7 @@ Welcome to **Web Maestro**! This project is designed to help you build a versati
 - **Real-Time Updates**: Instant updates to blog posts and comments with WebSockets.
 - **User Presence Status**: Monitor online/offline status of users in real-time.
 - **Scalability**: Built with scalability in mind to handle increasing user loads and interactions.
+![Web Maestro Screenshot](Backend/media/main2.png)
 
 ## Getting Started
 
@@ -22,6 +24,7 @@ Follow these instructions to get your development environment set up and running
 
 - Node.js and npm (Node Package Manager)
 - A modern web browser
+![Web Maestro Screenshot](Backend/media/main3.png)
 
 ### Installation
 
