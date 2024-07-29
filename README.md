@@ -1,5 +1,8 @@
 
 
+Here's the updated `README.md` with an image section added:
+
+```markdown
 # Web Maestro
 
 Welcome to **Web Maestro**! This project is designed to help you build a versatile and feature-rich web application with a focus on real-time communication and user management.
@@ -72,9 +75,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or support, please contact:
 
-- **Email**: your.email@example.com
+- **Email**: adiworkprofile@gmail.com
 - **GitHub Issues**: [GitHub Issues](https://github.com/yourusername/web-maestro/issues)
+
+## Screenshots
+
+![Web Maestro Screenshot](path/to/your/screenshot.png)
 
 Thank you for checking out Web Maestro!
 ```
+
+You can replace `path/to/your/screenshot.png` with the actual path to your screenshot image file. If you don't have a screenshot yet, you can add this section later.
 
