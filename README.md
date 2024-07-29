@@ -91,7 +91,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions or support, please contact:
 
 - **Email**: adiworkprofile@gmail.com
-- **GitHub Issues**: [GitHub Issues](https://github.com/yourusername/web-maestro/issues)
+- **GitHub Issues**: [GitHub Issues](https://github.com/aditya0yadav/web-maestro/issues)
 
 ## Screenshots
 
