@@ -3,6 +3,8 @@
 
 Welcome to **Web Maestro**! This project is designed to help you build a versatile and feature-rich blogging platform with a focus on user management and real-time interactions.
 
+![Web Maestro Screenshot](Backend/media/Screenshot 2024-07-04 at 6.58.13 PM.png)
+
 ## Features
 
 - **User Registration and Login**: Secure authentication for users to create and manage their accounts.
@@ -79,7 +81,7 @@ For any questions or support, please contact:
 
 ## Screenshots
 
-![Web Maestro Screenshot](path/to/your/screenshot.png)
+
 
 Thank you for checking out Web Maestro!
 
