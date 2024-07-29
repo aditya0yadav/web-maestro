@@ -38,7 +38,7 @@ Follow these instructions to get your development environment set up and running
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/web-maestro.git
+   git clone https://github.com/aditya0yadav/web-maestro.git
    ```
 
 2. **Navigate to the Project Directory**
