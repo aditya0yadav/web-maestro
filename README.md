@@ -84,5 +84,5 @@ For any questions or support, please contact:
 Thank you for checking out Web Maestro!
 ```
 
-You can replace `path/to/your/screenshot.png` with the actual path to your screenshot image file. If you don't have a screenshot yet, you can add this section later.
+
 
