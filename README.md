@@ -3,7 +3,8 @@
 
 Welcome to **Web Maestro**! This project is designed to help you build a versatile and feature-rich blogging platform with a focus on user management and real-time interactions.
 
-![Web Maestro Screenshot](Backend/media/Screenshot 2024-07-04 at 6.58.13 PM.png)
+![Web Maestro Screenshot](Backend/media/img.png)
+![Web Maestro Screenshot](Backend/media/img2.png)
 
 ## Features
 
