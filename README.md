@@ -2,7 +2,6 @@
 
 
 
-```
 # Web Maestro
 
 Welcome to **Web Maestro**! This project is designed to help you build a versatile and feature-rich web application with a focus on real-time communication and user management.
