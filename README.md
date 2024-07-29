@@ -5,8 +5,6 @@ Welcome to **Web Maestro**! This project is designed to help you build a versati
 
 ![Web Maestro Screenshot](Backend/media/main.png)
 
-![Web Maestro Screenshot](Backend/media/img2.png)
-
 ## Features
 
 - **User Registration and Login**: Secure authentication for users to create and manage their accounts.
